@@ -2,12 +2,14 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: cyan
+    background-image: linear-gradient(to right, cyan, rgb(158, 253, 253));
 }
 
 header {
     background-color: rgb(252, 252, 252);
     text-align: center;
+    margin: 10px;
+    width: auto;
 }
 
 body {
@@ -16,22 +18,44 @@ body {
 }
 
 nav {
-    background-color: cyan;
+    background-color: white;
     text-align: center;
+    width: auto;
+    margin: 10px 10px 10px;
 }
 
-main img {
+main > img {
+    width: auto;
+    height: 350px;
     text-align: center;
 }
 
 main {
     background-color: mintcream;
+    width: 700px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 10px 10px 260px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    width: auto;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
 }
 
 header > h1{
+    background-color: white;
     color: rgb(248, 82, 82)
 }
 
 footer {
-    background-color: cyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(248, 82, 82)
 }
