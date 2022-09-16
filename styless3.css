@@ -1,6 +1,37 @@
 @charset "UTF-8";
 
 body {
-    background: white
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: cyan
 }
 
+header {
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    text-align: justify;
+}
+
+nav {
+    background-color: cyan;
+    text-align: center;
+}
+
+main img {
+    text-align: center;
+}
+
+main {
+    background-color: mintcream;
+}
+
+header > h1{
+    color: rgb(248, 82, 82)
+}
+
+footer {
+    background-color: cyan;
+}
