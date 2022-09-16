@@ -10,6 +10,7 @@ header {
     text-align: center;
     margin: 10px;
     width: auto;
+    padding: 5px;
 }
 
 body {
@@ -20,8 +21,22 @@ body {
 nav {
     background-color: white;
     text-align: center;
+    padding: 20px;
     width: auto;
     margin: 10px 10px 10px;
+    line-height: 0.5em;
+}
+
+nav > a {
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    background-color: rgba(132, 255, 255, 0.658);
 }
 
 main > img {
@@ -34,6 +49,7 @@ main {
     background-color: mintcream;
     width: 700px;
     border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.363);
     padding: 10px;
     margin: 10px 10px 10px 260px;
 }
@@ -44,18 +60,32 @@ h1 {
 
 div {
     width: auto;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     background-color: white;
 }
 
+div > a {
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 7px;
+    transition-duration: .5s;
+}
+
+div > a:hover {
+    text-decoration: underline;
+    background-color: rgba(132, 255, 255, 0.658);
+}
+
 header > h1{
     background-color: white;
+    text-shadow: 1px 1px 0px black;
     color: rgb(248, 82, 82)
 }
 
 footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
     text-align: center;
     background-color: rgb(248, 82, 82)
 }
