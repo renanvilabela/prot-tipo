@@ -52,6 +52,7 @@ main {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.363);
     padding: 10px;
     margin: 10px 10px 10px 260px;
+
 }
 
 h1 {
@@ -60,21 +61,28 @@ h1 {
 
 div {
     width: auto;
+    height: 10;
+    position: absolute;
     padding: 10px;
+    border: 2px solid black;
     text-align: center;
     background-color: white;
+
+    left: 850px;
+    top: 500px;
 }
 
 div > a {
     text-decoration: none;
     border-radius: 10px;
+    border: 2px solid black;
     padding: 7px;
     transition-duration: .5s;
 }
 
 div > a:hover {
     text-decoration: underline;
-    background-color: rgba(132, 255, 255, 0.658);
+    background-color: rgba(112, 252, 252, 0.719);
 }
 
 header > h1{
@@ -88,4 +96,8 @@ footer {
     margin: 10px;
     text-align: center;
     background-color: rgb(248, 82, 82)
+}
+
+strong:hover {
+    text-decoration: underline;
 }
