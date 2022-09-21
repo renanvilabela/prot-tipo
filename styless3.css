@@ -82,7 +82,7 @@ div > a {
 
 div > a:hover {
     text-decoration: underline;
-    background-color: rgba(112, 252, 252, 0.719);
+    background-color: rgba(248, 82, 82, 0.575);
 }
 
 header > h1{
